@@ -164,3 +164,24 @@ const element = (
 
 ReactDOM.render(element, document.getElementById("root"));
 ```
+
+<b>Example: 4</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+const mArrays = ["Android", "Flutter", "React"];
+
+const element = (
+  <div>
+    <h1>Title</h1>
+    <ol>
+      {mArrays.map((mValues, mIndex) => (
+        <li key={mIndex}>{mValues}</li>
+      ))}
+    </ol>
+  </div>
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
