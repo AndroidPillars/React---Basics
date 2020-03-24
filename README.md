@@ -130,3 +130,37 @@ const element = (
 
 ReactDOM.render(element, document.getElementById("root"));
 ```
+<b>Example: 2</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+const mArrays = ["Android", "Flutter", "React"];
+
+const element = (
+  <ol>
+    <li>{mArrays[0]}</li>
+    <li>{mArrays[1]}</li>
+    <li>{mArrays[2]}</li>
+  </ol>
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
+<b>Example: 3</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+const mArrays = ["Android", "Flutter", "React"];
+
+const element = (
+  <ol>
+    {mArrays.map((mValues, mIndex) => (
+      <li key = {mIndex}>{mValues}</li>
+    ))}
+  </ol>
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
