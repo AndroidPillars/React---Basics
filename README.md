@@ -357,3 +357,11 @@ import Main from "./Components/Main";
 
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
+
+# State Management
+
+- React components has a built-in state object.
+- The state object is where you store property values that belongs to the component.
+- When the state object changes, the component re-renders.
+- The set state property allows us to update this special state property here and it will then ensure that React gets to know about this update and updates the DOM.
+- set state takes an object as an argument and it will merge whatever we define here with our existing state.
