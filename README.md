@@ -26,22 +26,6 @@ node -v
 npm -v
 ```
 
-# React - Intro
-
-- React is a library for creating user interfaces.
-- In React, everything is done with components.
-- Component is the building block for your website.
-- Once you combine all of these components it will make up a complex component that build all of your ui for your website.
-- For Example,
-```ruby
-</searchBar>
-</blogPost>
-```
-- The components what we talked above is made up of Elements.
-- Elements describes the UI of our page.
-- With the help of <b>Virtual DOM</b> React take care all our hard work 
-
-
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
