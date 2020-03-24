@@ -192,7 +192,7 @@ ReactDOM.render(element, document.getElementById("root"));
  - Compoenents are the main building blocks of an Application.
  - You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI.
  
- # Examples
+# Examples
 
 <b>Example: 1</b>
 ```ruby
@@ -232,6 +232,51 @@ class Main extends Component {
       <div>
         <Title />
         <List />
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<Main />, document.getElementById("root"));
+```
+<b>Example: 1</b>
+```ruby
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+
+
+class Title extends Component {
+
+  render() {
+    return (
+      <h1>{this.props.mString}</h1>
+    );
+  }
+
+}
+
+class List extends Component {
+
+  render() {
+    return (
+      <ol>
+        {this.props.mArrays.map((mValues, mIndex) => (
+          <li key={mIndex}>{mValues}</li>
+        ))}
+      </ol>
+    );
+
+  }
+
+}
+
+class Main extends Component {
+  render() {
+    return (
+      <div>
+        <Title mString={'Title'} />
+        <List mArrays={["Android", "Flutter", "React"]} />
+        <List mArrays={["React", "Flutter", "Android"]} />
       </div>
     )
   }
