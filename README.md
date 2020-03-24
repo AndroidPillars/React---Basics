@@ -285,3 +285,75 @@ class Main extends Component {
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
 
+# Refractor
+
+<b>Example: 1</b>
+
+- Create the Folder as Components
+- Create the File name as Main.js, Title.js and List.js in the above mentioned Folder.
+
+__In Main.js__
+```ruby
+import React, { Component } from "react";
+import Title from "./Title";
+import List from "./List"
+
+class Main extends Component {
+  render() {
+    return (
+      <div>
+        <Title mString={"Title"} />
+        <List mArrays={["Android", "Flutter", "React"]} />
+        <List mArrays={["React", "Flutter", "Android"]} />
+      </div>
+    );
+  }
+}
+
+export default Main;
+```
+
+__In Title.js__
+```ruby
+import React, { Component } from "react";
+
+class Title extends Component {
+
+    render() {
+        return (
+            <h1>{this.props.mString}</h1>
+        );
+    }
+
+}
+
+export default Title;
+```
+
+__In List.js__
+```ruby
+import React, { Component } from "react";
+
+class List extends Component {
+  render() {
+    return (
+      <ol>
+        {this.props.mArrays.map((mValues, mIndex) => (
+          <li key={mIndex}>{mValues}</li>
+        ))}
+      </ol>
+    );
+  }
+}
+
+export default List;
+```
+
+__In index.js__
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+import Main from "./Components/Main";
+
+ReactDOM.render(<Main />, document.getElementById("root"));
+```
