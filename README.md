@@ -112,6 +112,7 @@ ReactDOM.render(element, document.getElementById("root"));
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
 - In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
 - The JSX is translated to regular JavaScript at runtime.
+- Whenever we are writting JSX, as a rule of them every thing must quote to a single JSX element.
 
 # Examples
 
