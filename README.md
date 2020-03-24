@@ -42,7 +42,8 @@ npm install create-react-app -g
 ```ruby
 sudo npm install create-react-app -g
 ```
+- Finally,
 ```ruby
 create-react-app instawall
 ```
-- where instawall is the application name
+- where <b>instawall</b> is the application name
