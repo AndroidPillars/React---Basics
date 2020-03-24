@@ -46,4 +46,62 @@ sudo npm install create-react-app -g
 ```ruby
 create-react-app instawall
 ```
-- where <b>instawall</b> is the application name
+- where, <b>instawall</b> is the application name
+
+# Elements
+
+```ruby
+import React from 'react';
+```
+- React makes use of Elements to describe the user interface of our Application.
+- React Elements are simply objects.
+- How to we create React Elements to modify our User Interface.
+```ruby
+const element = React.createElement('h1', null, 'Hello World');
+```
+- This element describes the webpage should have a big title(i.e)the big header of Hello World.
+- The React elements only describes how the web page looks like but what actually renders our web page is the DOM.
+- The process of describing what you want to render and actually rendering the elements is completely de-coupled.
+- For that reason we have to import React DOM to be able to required DOM notes from these objects.
+```ruby
+import ReactDOM from 'react-dom';
+```
+
+# Examples 
+
+```ruby
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const element = React.createElement('h1', null, 'Hello World');
+
+ReactDOM.render(element, document.getElementById('root'));
+```
+
+```ruby
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const element = React.createElement('ol', null, 
+React.createElement('li', null, 'Android'),
+React.createElement('li', null, 'Flutter'),
+React.createElement('li', null, 'React')
+);
+
+ReactDOM.render(element, document.getElementById('root'));
+```
+
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+const mArrays = ["Android", "Flutter", "React"];
+
+const element = React.createElement(
+  "ol",
+  null,
+  mArrays.map((mValues, index) => React.createElement("li", { key: index }, mValues))
+);
+
+ReactDOM.render(element, document.getElementById("root"));
+```
