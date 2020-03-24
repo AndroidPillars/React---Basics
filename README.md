@@ -69,7 +69,7 @@ import ReactDOM from 'react-dom';
 
 # Examples 
 
-<b>Example:1</b>
+<b>Example: 1</b>
 ```ruby
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -78,7 +78,7 @@ const element = React.createElement('h1', null, 'Hello World');
 
 ReactDOM.render(element, document.getElementById('root'));
 ```
-<b>Example:2</b>
+<b>Example: 2</b>
 ```ruby
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -91,7 +91,7 @@ React.createElement('li', null, 'React')
 
 ReactDOM.render(element, document.getElementById('root'));
 ```
-<b>Example:3</b>
+<b>Example: 3</b>
 ```ruby
 import React from "react";
 import ReactDOM from "react-dom";
