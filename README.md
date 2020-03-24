@@ -30,3 +30,19 @@ npm -v
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
 - Simply, Babel is a JavaScript compiler.
+
+# Create React App
+
+- Choose the Required Folder
+- In Windows, 
+```ruby
+npm install create-react-app -g
+```
+- In Mac,
+```ruby
+sudo npm install create-react-app -g
+```
+```ruby
+create-react-app instawall
+```
+- where instawall is the application name
