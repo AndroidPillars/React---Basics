@@ -382,4 +382,6 @@ __
 # React - Router
 
 - We split React Router in to three components.  
-  1.
+  1. Browser Router
+  2. Link
+  3. Route
