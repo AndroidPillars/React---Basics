@@ -365,3 +365,9 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - When the state object changes, the component re-renders.
 - The set state property allows us to update this special state property here and it will then ensure that React gets to know about this update and updates the DOM.
 - set state takes an object as an argument and it will merge whatever we define here with our existing state.
+
+# Prop - Types
+
+```ruby
+npm install --save prop-types
+```
