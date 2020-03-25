@@ -378,3 +378,8 @@ __
 - Constructor -> No Elements -> Render -> ComponentDidMount -> ApiRequest -> UpdateState -> Re-render -> Render
 - The componentWillMount method is called before the component is invoked in to the DOM(i.e)before the render method gets invoked.
 - The componentDidUpdate method gets called once the component is Re-rendered(i.e)whenever we update the state of our Component trigger a Re-render.
+
+# React - Router
+
+- We split React Router in to three components.  
+  1.
