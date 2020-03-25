@@ -385,3 +385,20 @@ __
   1. Browser Router
   2. Link
   3. Route
+  
+# Browser Router
+
+- Browser Component is used to keep track of URL changes.
+
+# Link
+
+- Link Component is used to invoke a change in the URL upon it is being clicked on(ie)it's similar to that of the hyper link.
+
+# Route
+
+- Based on the URL we are going to have Route which contains the given path, whatever the URL are directed by the Link Component are going to find the proper Route which has the given path associated with the link.
+
+<b>For Installing the Plugin,</b>
+```ruby
+npm install react-router-dom
+```
