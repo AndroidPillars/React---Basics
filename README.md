@@ -386,6 +386,11 @@ __
   2. Link
   3. Route
   
+<b>For Installing the Plugin,</b>
+```ruby
+npm install react-router-dom
+```
+  
 # Browser Router
 
 - Browser Component is used to keep track of URL changes.
@@ -398,7 +403,3 @@ __
 
 - Based on the URL we are going to have Route which contains the given path, whatever the URL are directed by the Link Component are going to find the proper Route which has the given path associated with the link.
 
-<b>For Installing the Plugin,</b>
-```ruby
-npm install react-router-dom
-```
