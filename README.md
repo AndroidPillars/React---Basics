@@ -371,3 +371,10 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 ```ruby
 npm install --save prop-types
 ```
+
+- The constructor is only used to initialize the state of our Component or bind methods to the proper context.
+- The componentDidMount method is invoked immediately after the component is being inserted in to the DOM.
+__
+- Constructor -> No Elements -> Render -> ComponentDidMount -> ApiRequest -> UpdateState -> Re-render -> Render
+- The componentWillMount method is called before the component is invoked in to the DOM(i.e)before the render method gets invoked.
+- The componentDidUpdate method gets called once the component is Re-rendered(i.e)whenever we update the state of our Component trigger a Re-render.
