@@ -403,3 +403,14 @@ npm install react-router-dom
 
 - Based on the URL we are going to have Route which contains the given path, whatever the URL are directed by the Link Component are going to find the proper Route which has the given path associated with the link.
 
+# Redux
+
+- Redux makes our state of the Application more Predictable. 
+- As our application becomes more complex(i.e) whenever you miss manage the state as a result your are exposed to a lot of Bugs that's what the redux is the good alternative to managing our application state.
+- It makes the thing light Easier.
+- Redux gives us the way to store our data in a Organised way. All of our app's data is centralised in a single <b>Store</b>
+- Next, State in Redux is Read only, the component cannot never directly change the State it can do only by <b>Action</b>.
+- All State changes in a redux is happen in a single place that's what we mentioned Redux makes our state of the Application more Predictable, Easier to keep track of and easier to debug.
+- All State is updated one by one in a very strict order.
+- The Root Reducer is the only thing that updates the State.
+
