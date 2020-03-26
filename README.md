@@ -426,3 +426,5 @@ npm install redux
 npm install react-redux
 ```
 - By Installing react-redux it gives access to the provider.
+- The provider provide our Store to it's child Component.
+- By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
