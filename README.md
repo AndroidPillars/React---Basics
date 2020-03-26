@@ -418,4 +418,4 @@ npm install react-router-dom
 ```ruby
 npm install redux
 ```
-
+- The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
