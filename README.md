@@ -419,3 +419,5 @@ npm install react-router-dom
 npm install redux
 ```
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
+- Store where our application state lives. All the data in application lives in the Store.
+- The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with ist updated State.
