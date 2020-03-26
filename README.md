@@ -408,7 +408,7 @@ npm install react-router-dom
 - Redux makes our state of the Application more Predictable. 
 - As our application becomes more complex(i.e) whenever you miss manage the state as a result your are exposed to a lot of Bugs that's what the redux is the good alternative to managing our application state.
 - It makes the thing light Easier.
-- Redux gives us the way to store our data in a Organised way. All of our app's data is centralised in a single <b>Store</b>
+- Redux gives us the way to store our data in a Organised way. All of our app's data is centralised in a single <b>Store</b>.
 - Next, State in Redux is Read only, the component cannot never directly change the State it can do only by <b>Action</b>.
 - All State changes in a redux is happen in a single place that's what we mentioned Redux makes our state of the Application more Predictable, Easier to keep track of and easier to debug.
 - All State is updated one by one in a very strict order.
