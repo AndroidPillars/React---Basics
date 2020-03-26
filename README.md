@@ -414,3 +414,8 @@ npm install react-router-dom
 - All State is updated one by one in a very strict order.
 - The Root Reducer is the only thing that updates the State.
 
+<b>For Installing Redux Framework,</b>
+```ruby
+npm install redux
+```
+
