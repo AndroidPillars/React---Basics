@@ -206,6 +206,28 @@ const adults = ages.filter((age) => age > 20);
 console.log(adults);
 ```
 
+# Template String 
+
+<b>In ES5</b>,
+```ruby
+const name = 'Android';
+const age = 25;
+
+const mDescription = 'My name is ' + name + ', and I am ' + age + ' years old';
+
+console.log(mDescription);
+```
+
+<b>In ES6</b>,
+```ruby
+const name = 'Android';
+const age = 25;
+
+const mDescription = `My name is ${name}, and I am ${age} years old`;
+
+console.log(mDescription);
+```
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
