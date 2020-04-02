@@ -74,23 +74,23 @@ npm -v
 
 # var
 
- <b>For Example</b>,
+  <b>For Example</b>,
 
-  ```ruby
-  var age = 20;
-  var age = 22;
-  console.log(age);
-  ```
+    ```ruby
+    var age = 20;
+    var age = 22;
+    console.log(age);
+    ```
   
 # let
 
- <b>For Example</b>,
+  <b>For Example</b>,
 
-  ```ruby
-  var age = 20;
-  age = 22;
-  console.log(age);
-  ```
+    ```ruby
+    var age = 20;
+    age = 22;
+    console.log(age);
+    ```
   
 # const 
 
