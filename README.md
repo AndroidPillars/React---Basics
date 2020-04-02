@@ -269,6 +269,7 @@ sudo npm install create-react-app -g
 create-react-app instawall
 ```
 - where, <b>instawall</b> is the application name
+- Now Open the Application Folder using Visual Studio Code.
 
 # Elements
 
@@ -288,6 +289,7 @@ const element = React.createElement('h1', null, 'Hello World');
 ```ruby
 import ReactDOM from 'react-dom';
 ```
+- Note: You can check the libararies installation in package.json file -> dependencies.
 
 # Examples 
 
