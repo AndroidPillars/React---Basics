@@ -463,7 +463,7 @@ class Main extends Component {
 
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
-<b>Example: 1</b>
+<b>Example: 2</b>
 ```ruby
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
