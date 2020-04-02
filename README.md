@@ -176,6 +176,26 @@ const integers = [1,2,3];
 const updatedIntegers = integers.map(number => "bob");
 ```
 
+<b>Using Filter</b>,
+
+```ruby
+const ages = [23, 24, 3, 19];
+
+const adults = ages.filter(function(age){
+  return age > 20;
+});
+
+console.log(adults);
+```
+
+```ruby
+const ages = [23, 24, 3, 19];
+
+const adults = ages.filter((age) => age > 20);
+
+console.log(adults);
+```
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
