@@ -65,7 +65,9 @@ npm -v
     let myName = " Flutter";
     console.log(myName);
     }
+    console.log(myName); // Outside the Scope it will thorugh an error
   ```
+  
 # var vs let
 
 - In var we can reuse the variable names,
