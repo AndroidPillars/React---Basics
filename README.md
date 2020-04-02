@@ -4,18 +4,18 @@
 - It follows the component based approach which helps in building reusable UI components.
 - It is used for developing complex and interactive web and mobile UI.
 
-<b>For Example</b>
+  <b>For Example</b>
 
-```ruby
-webpage
-  <searchBar/>
-  <blogPost/>
-webpage
-```
-- Here, the webpage component is made up of two sub components.
-- searchBar and blogPost components combine together to form the entire webpgae.
-- This is known as compositional model.
-- React is just JavaScript.
+  ```ruby
+  webpage
+   <searchBar/>
+   <blogPost/>
+  webpage
+  ```
+  - Here, the webpage component is made up of two sub components.
+  - searchBar and blogPost components combine together to form the entire webpgae.
+  - This is known as compositional model.
+  - React is just JavaScript.
 
 # Visual Studio Code
 
