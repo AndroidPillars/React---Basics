@@ -70,7 +70,7 @@ npm -v
 
 - In var we can reuse the variable names,
 
-<b>var</b>,
+# var
 
  <b>For Example</b>,
 
@@ -79,7 +79,8 @@ npm -v
   var age = 22;
   console.log(age);
   ```
-<b>let</b>,
+  
+# let
 
  <b>For Example</b>,
 
