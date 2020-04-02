@@ -26,6 +26,37 @@ node -v
 npm -v
 ```
 
+# JavaScript - ES6
+
+# var and let 
+
+- <b>let</b> is an update that came along with ES6.
+- <b>Var</b> defines variables that can be reaasigned.
+
+  <b>For Example</b>,
+  
+  ```ruby
+  var name = "Android";
+  console.log(name);
+  name = "Flutter";
+  console.log(name);
+  ```
+- In Var you cannot access the variable outside the scope(i.e) when you declare a variable in var it is scoped to the enclosing function.
+- var is a function scoped.
+
+  <b>For Example</b>,
+
+  ```ruby
+  function printName(){
+    var name = "Android";
+    console.log(name);
+  }
+  console.log(name); // Outside the Scope it will thorugh an error
+  printName();
+  ```
+- To understand why ES6 is updated, let is a not a funtion scoped it is block scoped.
+
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
