@@ -585,18 +585,18 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 
 # Setting Styles 
 
- - To install font from online sources
+- To install font from online sources
 
   <b>In stylesheet.css</b>,
   
   ```ruby
-  @font-face {
-   font-family: 'billabong';
-   src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff");
-  }
-  ```
+    @font-face {
+      font-family: 'billabong';
+      src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff");
+    }
+  ``` 
   
- - Some of the font properties for heading is given below,
+- Some of the font properties for heading is given below,
  
   <b>In stylesheet.css</b>,
   
