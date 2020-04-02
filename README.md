@@ -91,6 +91,17 @@ npm -v
   age = 22;
   console.log(age);
   ```
+  
+# const 
+
+- In const Once you assign a value, you cannot update that again.
+
+  <b>For Example</b>,
+  
+  ```ruby
+  const age = 20;
+  console.log(age);
+  ```
 
 # Babel 
 
