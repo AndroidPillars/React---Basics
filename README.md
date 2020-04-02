@@ -16,6 +16,12 @@
   - searchBar and blogPost components combine together to form the entire webpgae.
   - This is known as compositional model.
   - React is just JavaScript.
+  
+# Virtual DOM
+
+- The Components we just talked above is made up of Elements.
+- These Elements describes the UI of our webpage.
+- With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM Nodes which are passed on to the actual DOM and renders appropriate UI on our webpage.
 
 # Visual Studio Code
 
