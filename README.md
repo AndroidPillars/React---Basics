@@ -31,7 +31,7 @@ npm -v
 # var and let 
 
 - <b>let</b> is an update that came along with ES6.
-- <b>Var</b> defines variables that can be reaasigned.
+- <b>Var</b> defines variables that can be reassigned.
 
   <b>For Example</b>,
   
