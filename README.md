@@ -147,6 +147,8 @@ const integers = [1,2,3];
 const updatedIntegers = integers.map(function(number) {
   return number += 1;
 }
+
+console.log(updatedIntegers);
 ```
 
 <b>ES6 Arrow Functions</b>,
@@ -156,24 +158,32 @@ const integers = [1,2,3];
 const updatedIntegers = integers.map((number) => {
   return number += 1;
 }
+
+console.log(updatedIntegers);
 ```
 
 ```ruby
 const integers = [1,2,3];
 
 const updatedIntegers = integers.map((number) => number += 1);
+
+console.log(updatedIntegers);
 ```
 
 ```ruby
 const integers = [1,2,3];
 
 const updatedIntegers = integers.map(number => number += 1);
+
+console.log(updatedIntegers);
 ```
 
 ```ruby
 const integers = [1,2,3];
 
-const updatedIntegers = integers.map(number => "bob");
+const updatedIntegers = integers.map(() => "bob");
+
+console.log(updatedIntegers);
 ```
 
 <b>Using Filter</b>,
