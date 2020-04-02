@@ -289,7 +289,7 @@ const element = React.createElement('h1', null, 'Hello World');
 ```ruby
 import ReactDOM from 'react-dom';
 ```
-- Note: You can check the libararies installation in package.json file -> dependencies.
+- <b>Note</b>: You can check the libraries installation in package.json file -> dependencies.
 
 # Examples 
 
