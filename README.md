@@ -609,7 +609,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
     margin: 2rem 0;
     letter-spacing: -1px;
     color : black;
-} 
+  } 
   ```
 
 # State Management
