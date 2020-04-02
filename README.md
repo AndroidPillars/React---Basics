@@ -508,6 +508,7 @@ class Main extends Component {
 
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
+- <b>this</b> keyword points out to the component instance of the class that is being rendered.
 
 # Refractor
 
