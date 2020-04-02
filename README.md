@@ -583,6 +583,35 @@ import Main from "./Components/Main";
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
 
+# Setting Styles 
+
+ - To install font from online sources
+
+  <b>In stylesheet.css</b>,
+  
+  ```ruby
+  @font-face {
+   font-family: 'billabong';
+   src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff");
+  }
+  ```
+  
+ - Some of the font properties for heading is given below,
+ 
+  <b>In stylesheet.css</b>,
+  
+  ```ruby
+  h1 {
+    font-family:  'billabong';
+    text-align: center;
+    font-size: 13rem;
+    font-weight:100;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color : black;
+} 
+  ```
+
 # State Management
 
 - React components has a built-in state object.
