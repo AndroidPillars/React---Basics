@@ -585,7 +585,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 
 # Setting Styles 
 
-- To install font from online sources
+- To install font from online sources,
 
   <b>In stylesheet.css</b>,
   
