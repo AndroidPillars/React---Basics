@@ -70,7 +70,7 @@ npm -v
   
 # var vs let
 
-- In var we can reuse the variable names,
+- In var, we can reuse the variable names.
 
 # var
 
