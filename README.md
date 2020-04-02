@@ -263,6 +263,7 @@ npm install create-react-app -g
 ```ruby
 sudo npm install create-react-app -g
 ```
+- Choose the Destination Folder.
 - Finally,
 ```ruby
 create-react-app instawall
