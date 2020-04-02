@@ -104,40 +104,39 @@ npm -v
   ```
  - The below Example throws an Exception because we are trying to reassign the person var, 
   
-  <b>Example 2</b>,
+    <b>Example 2</b>,
   
-  ```ruby
- const person = {
-  name: 'Android';
-  company: 'google';
- }
+    ```ruby
+    const person = {
+    name: 'Android';
+    company: 'google';
+    }
  
- person = {
-  name: 'Windows';
-  company: 'Microsoft';
- }
+    person = {
+    name: 'Windows';
+    company: 'Microsoft';
+    }
  
- console.log(person.name);
- console.log(person.company);
-  ```
+    console.log(person.name);
+    console.log(person.company);
+    ```
  
 - In const, we will never allow to change the value of an object but we can change it's properties.
 
   <b>Example 3</b>,
   
   ```ruby
- const person = {
+  const person = {
   name: 'Android';
   company: 'google';
- }
+  }
  
- person.name: 'Windows';  
- person.company: 'Microsoft';
+  person.name: 'Windows';  
+  person.company: 'Microsoft';
  
- console.log(person.name);
- console.log(person.company);
+  console.log(person.name);
+  console.log(person.company);
   ```
-
 
 # Babel 
 
