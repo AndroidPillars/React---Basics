@@ -137,6 +137,44 @@ npm -v
   console.log(person.name);
   console.log(person.company);
   ```
+  
+# Arrow Functions
+
+<b>In ES5</b>,
+```ruby
+const integers = [1,2,3];
+
+const updatedIntegers = integers.map(function(number) {
+  return number += 1;
+}
+```
+
+<b>ES6 Arrow Functions</b>,
+```ruby
+const integers = [1,2,3];
+
+const updatedIntegers = integers.map((number) => {
+  return number += 1;
+}
+```
+
+```ruby
+const integers = [1,2,3];
+
+const updatedIntegers = integers.map((number) => number += 1);
+```
+
+```ruby
+const integers = [1,2,3];
+
+const updatedIntegers = integers.map(number => number += 1);
+```
+
+```ruby
+const integers = [1,2,3];
+
+const updatedIntegers = integers.map(number => "bob");
+```
 
 # Babel 
 
