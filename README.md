@@ -54,7 +54,18 @@ npm -v
   console.log(name); // Outside the Scope it will thorugh an error
   printName();
   ```
-- To understand why ES6 is updated, let is a not a funtion scoped it is block scoped.
+- To understand why ES6 is updated, let is a not a function scoped it is block scoped.
+
+  <b>For Example</b>,
+  
+  ```ruby
+  var name = "Android";
+  
+  if(name == "Android"){
+    let myName = " Flutter";
+    console.log(myName);
+    
+  ```
 
 
 # Babel 
