@@ -223,7 +223,7 @@ console.log(mDescription);
 const name = 'Android';
 const age = 25;
 
-const mDescription = `My name is ${name}, and I am ${age} years old`;
+const mDescription = `My name is ${name}, and I am ${age * 2} years old`;
 
 console.log(mDescription);
 ```
