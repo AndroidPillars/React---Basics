@@ -66,7 +66,28 @@ npm -v
     console.log(myName);
     }
   ```
+# var vs let
 
+- In var we can reuse the variable names,
+
+<b>var</b>,
+
+ <b>For Example</b>,
+
+  ```ruby
+  var age = 20;
+  var age = 22;
+  console.log(age);
+  ```
+<b>let</b>,
+
+ <b>For Example</b>,
+
+  ```ruby
+  var age = 20;
+  age = 22;
+  console.log(age);
+  ```
 
 # Babel 
 
