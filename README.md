@@ -672,6 +672,8 @@ npm install --save prop-types
 
 # React - Router
 
+- We will be using React Router in to a Single Page Application.
+- In <b>Single Page Application</b> it downloads the entire content in a Single Request.(i.e) A single-page application       works inside a browser and does not require page reloading during use.
 - We split React Router in to three components.  
   1. Browser Router
   2. Link
