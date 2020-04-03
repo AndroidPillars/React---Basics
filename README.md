@@ -639,6 +639,12 @@ ReactDOM.render(<Main />, document.getElementById("root"));
     }
   }
   ```
+  
+# Props
+
+- Props are arguments passed into React components.
+- Props are passed to components via HTML attributes.
+- Props are considered to be read only immutable data it can't be changed overtime.
 
 # State Management
 
