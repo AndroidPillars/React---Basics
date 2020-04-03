@@ -689,14 +689,33 @@ npm install react-router-dom
 # Browser Router
 
 - Browser Component is used to keep track of URL changes.
+<b>In index.js</b>,
+  ```ruby
+  import {BrowserRouter} from 'react-router-dom'
+  
+  ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, document.getElementById('root'));
+  ```
 
 # Link
 
 - Link Component is used to invoke a change in the URL upon it is being clicked on(ie)it's similar to that of the hyper link.
+  <b>Syntax</b>
+  ```ruby
+  import {Link} from 'react-router-dom'
+  
+  <Link className="add-icon" to="/add-photo"></Link>
+  ```
 
 # Route
 
 - Based on the URL we are going to have Route which contains the given path, whatever the URL are directed by the Link Component are going to find the proper Route which has the given path associated with the link.
+  <b>syntax</b>
+  ```ruby
+  import {Route} from 'react-router-dom';
+  
+  <Route path="/..." component = {...}/>
+  
+  ```
 
 # Redux
 
