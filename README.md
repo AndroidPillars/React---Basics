@@ -21,7 +21,7 @@
 
 - The Components we just talked above is made up of Elements.
 - These Elements describes the UI of our webpage.
-- With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM Nodes which are passed on to the actual DOM and renders appropriate UI on our webpage.
+- With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM   Nodes which are passed on to the actual DOM and renders appropriate UI on our webpage.
 
 # Visual Studio Code
 
@@ -616,13 +616,13 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - Functional components are simply javascript functions.
 - We can create a functional component in React by writing a javascript function.
 - These functions may or may not receive data as parameters
-
-```ruby
-function Democomponent()
-{
+  &nbsp;  
+  ```ruby
+  function Democomponent()
+  {
     return <h1>Welcome Message!</h1>;
-}
-```
+  }
+  ```
 
 # Class Components
 
@@ -630,15 +630,15 @@ function Democomponent()
 - The functional components are not aware about the other components in your program where as the class components can work   with each other.
 - We can pass data from one class component to other class component.
 - We can use javascript ES6 classes to create class based components in React.
-
-```ruby
-class Democomponent extends React.Component
-{
+  &nbsp;  
+  ```ruby
+  class Democomponent extends React.Component
+  {
     render(){
           return <h1>Welcome Message!</h1>;
     }
-}
-```
+  }
+  ```
 
 # State Management
 
