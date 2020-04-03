@@ -679,6 +679,8 @@ npm install --save prop-types
   2. Link
   3. Route
   
+- We have to connect our Browser Router to a link component. Since it is the link component on which the   user will press that tells the browser router to update the URL for helping our app to listen URL changes     which renders to the right screen.
+  
 <b>For Installing the Plugin,</b>
 ```ruby
 npm install react-router-dom
