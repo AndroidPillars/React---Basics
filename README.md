@@ -615,7 +615,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 
 - Functional components are simply javascript functions.
 - We can create a functional component in React by writing a javascript function.
-- These functions may or may not receive data as parameters
+- These functions may or may not receive data as parameters.  
   &nbsp;  
   ```ruby
   function Democomponent()
@@ -629,7 +629,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - The class components are little more complex than the functional components.
 - The functional components are not aware about the other components in your program where as the class components can work   with each other.
 - We can pass data from one class component to other class component.
-- We can use javascript ES6 classes to create class based components in React.
+- We can use javascript ES6 classes to create class based components in React.  
   &nbsp;  
   ```ruby
   class Democomponent extends React.Component
