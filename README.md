@@ -247,6 +247,18 @@ const mDescription = `My name is ${name}, and I am ${age * 2} years old`;
 console.log(mDescription);
 ```
 
+# Function Parameters
+
+# Objects. 
+  &nbsp; 
+  ```ruby
+  const person = {
+  name: 'Android',
+  age: 8
+  }
+  ```
+  - <b>where</b> name and age are objects.
+  
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
