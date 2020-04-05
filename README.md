@@ -258,9 +258,17 @@ console.log(mDescription);
   name: 'Android',
   age: 8
   }
+  console.log(person);
   ```
-  - <b>where</b> name and age are objects.
   
+# Function Constructor
+
+```ruby
+function Person(name, age) {
+
+}
+```
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
