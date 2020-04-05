@@ -249,8 +249,10 @@ console.log(mDescription);
 
 # Function Parameters
 
-# Objects. 
-  &nbsp; 
+# Objects  
+- An object is nothing but a self-contained component which consists of methods and properties to make a particular type of data useful. 
+- Object determines the behavior of the class.
+
   ```ruby
   const person = {
   name: 'Android',
