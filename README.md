@@ -750,7 +750,8 @@ npm install react-router-dom
 - All State is updated one by one in a very strict order.
 - The Root Reducer is the only thing that updates the State.
   &nbsp;  
-  <b>For Installing Redux Framework,</b>
+  <b>For Installing Redux Framework,</b>  
+  &nbsp;  
   ```ruby
   npm install redux
   ```
@@ -758,7 +759,8 @@ npm install react-router-dom
 - Store where our application state lives. All the data in application lives in the Store.
 - The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.  
   &nbsp;  
-  <b>For Installing React-Redux,</b>
+  <b>For Installing React-Redux,</b>  
+  &nbsp;  
   ```ruby
   npm install react-redux
   ```
