@@ -749,18 +749,19 @@ npm install react-router-dom
 - All State changes in a redux is happen in a single place that's what we mentioned Redux makes our state of the Application more Predictable, Easier to keep track of and easier to debug.
 - All State is updated one by one in a very strict order.
 - The Root Reducer is the only thing that updates the State.
-
-<b>For Installing Redux Framework,</b>
-```ruby
-npm install redux
-```
+  &nbsp;  
+  <b>For Installing Redux Framework,</b>
+  ```ruby
+  npm install redux
+  ```
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
 - Store where our application state lives. All the data in application lives in the Store.
 - The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.  
-<b>For Installing React-Redux,</b>
-```ruby
-npm install react-redux
-```
+  &nbsp;  
+  <b>For Installing React-Redux,</b>
+  ```ruby
+  npm install react-redux
+  ```
 - By Installing react-redux it gives access to the provider.
 - The provider provide our Store to it's child Component.
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
