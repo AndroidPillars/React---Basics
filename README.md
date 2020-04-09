@@ -748,18 +748,18 @@ npm install react-router-dom
 - Next, State in Redux is Read only, the component cannot never directly change the State it can do only by <b>Action</b>.
 - All State changes in a redux is happen in a single place that's what we mentioned Redux makes our state of the Application more Predictable, Easier to keep track of and easier to debug.
 - All State is updated one by one in a very strict order.
-- The Root Reducer is the only thing that updates the State.
+- The Root Reducer is the only thing that updates the State.  
   &nbsp;  
-  <b>For Installing Redux Framework,</b>  
+  <b>For Installing Redux Framework,</b>.   
   &nbsp;  
   ```ruby
   npm install redux
   ```
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
 - Store where our application state lives. All the data in application lives in the Store.
-- The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.  
+- The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.   
   &nbsp;  
-  <b>For Installing React-Redux,</b>  
+  <b>For Installing React-Redux,</b>. 
   &nbsp;  
   ```ruby
   npm install react-redux
