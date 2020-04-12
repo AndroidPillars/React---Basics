@@ -279,6 +279,16 @@ function Person(name, age) {
   this.age = age;
 }
 
+const bill = new Person('Android',50);
+console.log(bill);
+```
+
+```ruby
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
 person.prototype.speak = function(){
   console.log(`Hi my name is $(this.name}`);
 
