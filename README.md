@@ -289,7 +289,7 @@ function Person(name, age) {
   this.age = age;
 }
 
-person.prototype.speak = function(){
+Person.prototype.speak = function(){
   console.log(`Hi my name is $(this.name}`);
 
 };
