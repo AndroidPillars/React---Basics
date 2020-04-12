@@ -308,8 +308,25 @@ constructor(){
   this.age = age;
 }
 
-const build = new Person('Android',50);
+const bill = new Person('Android',50);
 console.log(bill);
+}
+```
+
+```ruby
+class Person{
+
+constructor(){
+  this.name = name;
+  this.age = age;
+}
+
+speak(){
+  console.log(`Hi my name is $(this.name}`);
+}
+
+const bill = new Person('Android',50);
+bill.speak();
 }
 ```
 
