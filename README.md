@@ -330,6 +330,30 @@ bill.speak();
 }
 ```
 
+```ruby
+class Person{
+
+constructor(){
+  this.name = name;
+  this.age = age;
+  this.children = children;
+}
+
+speak(){
+  console.log(`Hi my name is $(this.name}`);
+}
+
+birth(child){
+  this.children.push(child);
+}
+
+const bill = new Person('Android', 50, ['Android', 'Flutter']);
+bill.speak();
+bill.birth('React');
+console.log(bill.children);
+}
+```
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
