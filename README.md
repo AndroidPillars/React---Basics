@@ -354,6 +354,31 @@ console.log(bill.children);
 }
 ```
 
+# Spread Operator
+
+```ruby
+const names = ['Android', 'Flutter', 'React']
+const moreNames = ['Google', 'Microsoft']
+console.log(names)
+```
+
+```ruby
+const names = ['Android', 'Flutter', 'React']
+const moreNames = ['Google', 'Microsoft']
+console.log(...names) 
+```
+
+```ruby
+const names = ['Android', 'Flutter', 'React']
+const moreNames = ['Google', 'Microsoft']
+
+
+let allNames = []
+allNames = allNames.concat(names)
+allNames.push('Flipkart')
+allNames = allNames.concat(moreNames)
+```
+
 # Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
