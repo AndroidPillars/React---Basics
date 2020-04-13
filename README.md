@@ -904,9 +904,18 @@ npm install react-router-dom
     &nbsp;  
     ```ruby
     import { createStore} from 'redux';
+    import rootReducer from './redux/reduder'
   
-    const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),         applyMiddleware(thunk))
+    const store = createStore(rootReducer)
 
+    ```
+    __In reducer.js__
+    ```ruby
+    const postReducer = function posts(state , action) {
+      return state
+    }
+    
+    export default postReducer
     ```
 - The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its       updated State.   
     &nbsp;  
