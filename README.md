@@ -372,11 +372,21 @@ console.log(...names)
 const names = ['Android', 'Flutter', 'React']
 const moreNames = ['Google', 'Microsoft']
 
-
 let allNames = []
 allNames = allNames.concat(names)
 allNames.push('Flipkart')
 allNames = allNames.concat(moreNames)
+
+console.log(allNames)
+```
+
+```ruby
+const names = ['Android', 'Flutter', 'React']
+const moreNames = ['Google', 'Microsoft']
+
+const allNames = [...names, 'Gio', ...moreNames]
+
+console.log(allNames)
 ```
 
 # Babel 
