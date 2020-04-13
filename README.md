@@ -895,29 +895,26 @@ npm install react-router-dom
   ```ruby
   npm install redux
   ```
-- Finally, Redux has the ability to keep the state predictable, Easy to Manage such that it's centralized in a single store only pure functions called Reducers allow to update the State.
+- Finally, Redux has the ability to keep the state predictable, Easy to Manage such that it's centralized in a single store   only pure functions called Reducers allow to update the State.
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
-
-# Store
-
 - <b>Store</b> where our application state lives. All the data in application lives in the Store.
 - State in Redux is read-only. It's immutable.
 - The only way to change the State that lives inside our Store is through the pure functions called <b>reducers</b>.
-- Reducer is the arguement which we pass in to the createStore. The arguement takes in to the bunch of reducers which all     combine in to a single root reducer which will define how data is going to be updated in our Store.
-  &nbsp;  
-  ```ruby
-  import { createStore} from 'redux';
+- <b>Reducer</b> is the arguement which we pass in to the createStore. The arguement takes in to the bunch of reducers which    all combine in to a single root reducer which will define how data is going to be updated in our Store.  
+    &nbsp;  
+    ```ruby
+    import { createStore} from 'redux';
   
-  const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(), applyMiddleware(thunk))
+    const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),         applyMiddleware(thunk))
 
-  ```
-- The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.   
-  &nbsp;  
-  <b>For Installing React-Redux,</b>   
-  &nbsp;  
-  ```ruby
-  npm install react-redux
-  ```
+    ```
+- The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its       updated State.   
+    &nbsp;  
+    <b>For Installing React-Redux,</b>   
+    &nbsp;  
+    ```ruby
+    npm install react-redux
+    ```
 - By Installing react-redux it gives access to the provider.
 - The provider provide our Store to it's child Component.
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
