@@ -359,12 +359,14 @@ console.log(bill.children);
 ```ruby
 const names = ['Android', 'Flutter', 'React']
 const moreNames = ['Google', 'Microsoft']
+
 console.log(names)
 ```
 
 ```ruby
 const names = ['Android', 'Flutter', 'React']
 const moreNames = ['Google', 'Microsoft']
+
 console.log(...names) 
 ```
 
