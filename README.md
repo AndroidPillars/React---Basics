@@ -762,7 +762,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - These functions may or may not receive data as parameters.  
   &nbsp;  
   ```ruby
-  function Democomponent() {
+  function Demo() {
   
     return <h1>Welcome Message!</h1>;
     
@@ -777,7 +777,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - We can use javascript ES6 classes to create class based components in React.  
   &nbsp;  
   ```ruby
-  class Democomponent extends React.Component {
+  class Demo extends React.Component {
  
     render(){
           return <h1>Welcome Message!</h1>;
@@ -799,6 +799,22 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - When the state object changes, the component re-renders.
 - The set state property allows us to update this special state property here and it will then ensure that React gets to know about this update and updates the DOM.
 - set state takes an object as an argument and it will merge whatever we define here with our existing state.
+
+```ruby
+class Demo extends React.Component {  
+      
+    constructor(){  
+        super();  
+        this.state = {  
+            message: "my friend (from state)!"  
+        };  
+    }  
+      
+    render() {  
+        return <h1>Hello {this.state.message}!</h1>;  
+    }  
+}
+```
 
 # Prop - Types
 
