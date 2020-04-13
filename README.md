@@ -762,9 +762,10 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - These functions may or may not receive data as parameters.  
   &nbsp;  
   ```ruby
-  function Democomponent()
-  {
+  function Democomponent() {
+  
     return <h1>Welcome Message!</h1>;
+    
   }
   ```
 
@@ -776,11 +777,12 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 - We can use javascript ES6 classes to create class based components in React.  
   &nbsp;  
   ```ruby
-  class Democomponent extends React.Component
-  {
+  class Democomponent extends React.Component {
+ 
     render(){
           return <h1>Welcome Message!</h1>;
     }
+    
   }
   ```
   
