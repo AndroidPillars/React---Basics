@@ -897,10 +897,18 @@ npm install react-router-dom
   ```
 - Finally, Redux has the ability to keep the state predictable, Easy to Manage such that it's centralized in a single store only pure functions called Reducers allow to update the State.
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
-- Store where our application state lives. All the data in application lives in the Store.  
+
+# Store
+
+- <b>Store</b> where our application state lives. All the data in application lives in the Store.
+- State in Redux is read-only. It's immutable.
+- The only way to change the State that lives inside our Store is through the pure functions called <b>reducers</b>.
+- Reducer is the arguement which we pass in to the createStore. The arguement takes in to the bunch of reducers which all     combine in to a single root reducer which will define how data is going to be updated in our Store.
   &nbsp;  
   ```ruby
   import { createStore} from 'redux';
+  
+  const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(), applyMiddleware(thunk))
 
   ```
 - The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.   
