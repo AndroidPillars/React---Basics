@@ -895,8 +895,14 @@ npm install react-router-dom
   ```ruby
   npm install redux
   ```
+- Finally, Redux has the ability to keep the state predictable, Easy to Manage such that it's centralized in a single store only pure functions called Reducers allow to update the State.
 - The three main parts in Redux are <b>Store, Reducer</b> and <b>Action</b>.
-- Store where our application state lives. All the data in application lives in the Store.
+- Store where our application state lives. All the data in application lives in the Store.  
+  &nbsp;  
+  ```ruby
+  import { createStore} from 'redux';
+
+  ```
 - The Store dispatches an Action and the Action disptaches to the Reducer and the Reducer then gives the Store with its updated State.   
   &nbsp;  
   <b>For Installing React-Redux,</b>   
