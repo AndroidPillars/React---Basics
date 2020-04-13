@@ -903,10 +903,13 @@ npm install react-router-dom
 - <b>Reducer</b> is the arguement which we pass in to the createStore. The arguement takes in to the bunch of reducers which    all combine in to a single root reducer which will define how data is going to be updated in our Store.  
     &nbsp;  
     ```ruby
-    import { createStore} from 'redux';
+    import { createStore} from 'redux'
     import rootReducer from './redux/reducer'
   
     const store = createStore(rootReducer)
+    
+    ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, 
+    document.getElementById('root'));
 
     ```
     __In reducer.js__  
@@ -926,5 +929,17 @@ npm install react-router-dom
     npm install react-redux
     ```
 - By Installing react-redux it gives access to the provider.
-- The provider provide our Store to it's child Component.
+- The provider provide our Store to it's child Component.  
+  &nbsp;  
+    ```ruby
+    import { createStore} from 'redux'
+    import rootReducer from './redux/reducer'
+    import {provider} from 'react-redux'
+  
+    const store = createStore(rootReducer)
+    
+    ReactDOM.render(<Provider store = {store}><BrowserRouter><App/></BrowserRouter></Provider>, 
+    document.getElementById('root'));
+
+    ```
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
