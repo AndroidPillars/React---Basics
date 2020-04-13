@@ -820,9 +820,9 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 
 - We can use the propType for validating any data we are receiving from props. 
 
-```ruby
-npm install --save prop-types
-```
+  ```ruby
+  npm install --save prop-types
+  ```
 
 # React State Management Lifecycle Methods
 
