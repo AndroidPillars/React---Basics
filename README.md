@@ -904,12 +904,13 @@ npm install react-router-dom
     &nbsp;  
     ```ruby
     import { createStore} from 'redux';
-    import rootReducer from './redux/reduder'
+    import rootReducer from './redux/reducer'
   
     const store = createStore(rootReducer)
 
     ```
-    __In reducer.js__
+    __In reducer.js__  
+    &nbsp;  
     ```ruby
     const postReducer = function posts(state , action) {
       return state
