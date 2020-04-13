@@ -903,7 +903,7 @@ npm install react-router-dom
 - <b>Reducer</b> is the arguement which we pass in to the createStore. The arguement takes in to the bunch of reducers which    all combine in to a single root reducer which will define how data is going to be updated in our Store.  
     &nbsp;  
     ```ruby
-    import { createStore} from 'redux'
+    import { createStore } from 'redux'
     import rootReducer from './redux/reducer'
   
     const store = createStore(rootReducer)
@@ -932,7 +932,7 @@ npm install react-router-dom
 - The provider provide our Store to it's child Component.  
   &nbsp;  
     ```ruby
-    import { createStore} from 'redux'
+    import { createStore } from 'redux'
     import rootReducer from './redux/reducer'
     import {provider} from 'react-redux'
   
