@@ -935,11 +935,28 @@ npm install react-router-dom
     import { createStore } from 'redux'
     import rootReducer from './redux/reducer'
     import {provider} from 'react-redux'
+    import App from './Components/App'
   
     const store = createStore(rootReducer)
     
     ReactDOM.render(<Provider store = {store}><BrowserRouter><App/></BrowserRouter></Provider>, 
     document.getElementById('root'));
 
+    ```
+    __In App.js__  
+    &nbsp;  
+    ```ruby
+    import Main fron './Main'
+    import {connect} from 'react-redux'
+    
+    function mapStateToProps(state) {
+      return {
+        posts: state
+      }
+    }
+    
+    const App = connect(mapStateToProps)(Main)
+    
+    export default App
     ```
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
