@@ -971,5 +971,31 @@ npm install react-router-dom
     ```
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
 
+# FireBase
+
+- Firebase is a technology that allows you to create web and mobile applications without server-side programming, making development faster and easier. 
+- Visit, https://console.firebase.google.com/u/0/
+- Create a project.
+- Now Create a new Database and select the Option Realtime Database.
+- Now, Go to the Database and make the read and write value as true for disabling the Authentication.
+- Go to Project Overview and select Add Firebase to your web app.
+- Once you created, Go to settings and copy the config
+
+  ```ruby
+    const firebaseConfig = {
+    apiKey: "AIzaSyDcsxmF3vVIgcQ30DR-D6dgyo24qde",
+    authDomain: "photowall-6cd25.firebaseapp.com",
+    databaseURL: "https://photowall-6cd25.firebaseio.com",
+    projectId: "photowall-6cd25",
+    storageBucket: "photowall-6cd25.appspot.com",
+    messagingSenderId: "308221131146",
+    appId: "1:308221131146:web:4258263362ab4690dd7073",
+    measurementId: "G-DB4SRKM192"
+    };
+```
+
+
 ```ruby
+npm install -g firebase-tools
+
 ```
