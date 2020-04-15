@@ -970,3 +970,6 @@ npm install react-router-dom
     }
     ```
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
+
+```ruby
+```
