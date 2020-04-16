@@ -994,5 +994,5 @@ npm install react-router-dom
 <b>For Installing Firebase,</b>       
     &nbsp;  
     ```ruby
-      npm install firebase
+      npm install firebase  
     ```
