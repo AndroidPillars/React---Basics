@@ -979,7 +979,7 @@ npm install react-router-dom
 - Now Create a new Database and select the Option Realtime Database.
 - Now, Go to the Database and make the read and write value as true for disabling the Authentication.
 - Go to Project Overview and select Add Firebase to your web app.
-- Once you created, Go to settings and copy the config,
+- Once you created, Go to settings and copy the config,  
   &nbsp;  
   ```ruby
     const firebaseConfig = {
@@ -990,9 +990,9 @@ npm install react-router-dom
     storageBucket: "photowall-6cd25.appspot.com",
     messagingSenderId: "308221131146",
     };
-```
- <b>For Installing Firebase,</b>     
-  &nbsp;  
-  ```ruby
-  npm install firebase
   ```
+<b>For Installing Firebase,</b>       
+    &nbsp;  
+    ```ruby
+      npm install firebase
+    ```
