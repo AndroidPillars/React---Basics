@@ -991,7 +991,7 @@ npm install react-router-dom
     messagingSenderId: "308221131146",
     };
   ```
-  <b>For Installing Firebase,</b>   
+  <b>For Installing Firebase</b>   
     &nbsp;  
     ```ruby
       npm install firebase
