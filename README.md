@@ -19,12 +19,16 @@
 | 15 | [Babel](README.md#babel) |
 | 16 | [Create React App](README.md#create-react-app) |
 | 17 | [Elements](README.md#elements) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
+| 18 | [Understanding JSX](README.md#understanding-jsx) |
+| 19 | [Components](README.md#components) |
+| 20 | [Refractor](README.md#refractor) |
+| 21 | [Setting Styles](README.md#setting-styles) |
+| 22 | [Functional Components](README.md#functional-components) |
+| 23 | [Class Components](README.md#class-components) |
+| 24 | [Props](README.md#props) |
+| 25 | [State Management](README.md#state-management) |
+| 26 | [Prop - Types](README.md#prop---types) |
+| 27 | [React State Management Lifecycle Methods](README.md#react-state-management-lifecycle-methods) |
 
 
 
