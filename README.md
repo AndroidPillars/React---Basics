@@ -32,7 +32,8 @@
 
 - It is a open source run time environment which runs JavaScript code on a server.
 - Install Node.js -> https://nodejs.org/en/download/
-- To check the node version
+- To check the node version  
+  &nbsp;
   ```ruby
   node -v
   ```
@@ -40,7 +41,8 @@
 # npm - Node Package Manager
 
 - It is used to install various dependencies and frameworks on to our project.
-- To check the node version
+- To check the node version  
+  &nbsp;
   ```ruby
   npm -v
   ```
