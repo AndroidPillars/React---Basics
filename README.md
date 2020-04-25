@@ -16,8 +16,8 @@
 | 12 | [Function Parameters](README.md#function-parameters) |
 | 13 | [ES6 - Classes](README.md#es6---classes) |
 | 14 | [Spread Operator](README.md#spread-operator) |
-| 1 | [React](README.md#react) |
-| 1 | [React](README.md#react) |
+| 15 | [Babel](README.md#babel) |
+| 16 | [Create React App](README.md#create-react-app) |
 | 1 | [React](README.md#react) |
 | 1 | [React](README.md#react) |
 | 1 | [React](README.md#react) |
