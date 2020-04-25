@@ -431,19 +431,22 @@ console.log(allNames)
 # Create React App
 
 - Choose the Required Folder
-- In Windows, 
-```ruby
-npm install create-react-app -g
-```
-- In Mac,
-```ruby
-sudo npm install create-react-app -g
-```
+- In Windows,  
+  &nbsp;  
+  ```ruby
+  npm install create-react-app -g
+  ```
+- In Mac,  
+  &nbsp;  
+  ```ruby
+  sudo npm install create-react-app -g
+  ```
 - Choose the Destination Folder.
-- Finally,
-```ruby
-create-react-app instawall
-```
+- Finally,  
+  &nbsp;  
+  ```ruby
+  create-react-app instawall
+  ```
 - where, <b>instawall</b> is the application name
 - Now Open the Application Folder using Visual Studio Code.
 
@@ -454,17 +457,19 @@ import React from 'react';
 ```
 - React makes use of Elements to describe the user interface of our Application.
 - React Elements are simply objects.
-- How to we create React Elements to modify our User Interface.
-```ruby
-const element = React.createElement('h1', null, 'Hello World');
-```
+- How to we create React Elements to modify our User Interface.  
+  &nbsp;  
+  ```ruby
+  const element = React.createElement('h1', null, 'Hello World');
+  ```
 - This element describes the webpage should have a big title(i.e)the big header of Hello World.
 - The React elements only describes how the web page looks like but what actually renders our web page is the DOM.
 - The process of describing what you want to render and actually rendering the elements is completely de-coupled.
-- For that reason we have to import React DOM to be able to required DOM notes from these objects.
-```ruby
-import ReactDOM from 'react-dom';
-```
+- For that reason we have to import React DOM to be able to required DOM notes from these objects.  
+  &nbsp;  
+  ```ruby
+  import ReactDOM from 'react-dom';
+  ```
 - <b>Note</b>: You can check the libraries installation in package.json file -> dependencies.
 
 # Examples 
