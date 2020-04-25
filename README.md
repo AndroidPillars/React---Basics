@@ -18,7 +18,7 @@
 | 14 | [Spread Operator](README.md#spread-operator) |
 | 15 | [Babel](README.md#babel) |
 | 16 | [Create React App](README.md#create-react-app) |
-| 1 | [React](README.md#react) |
+| 17 | [Elements](README.md#elements) |
 | 1 | [React](README.md#react) |
 | 1 | [React](README.md#react) |
 | 1 | [React](README.md#react) |
@@ -452,10 +452,11 @@ console.log(allNames)
 
 # Elements
 
-```ruby
-import React from 'react';
-```
-- React makes use of Elements to describe the user interface of our Application.
+- React makes use of Elements to describe the user interface of our Application.  
+  &nbsp;  
+  ```ruby
+  import React from 'react';
+  ```
 - React Elements are simply objects.
 - How to we create React Elements to modify our User Interface.  
   &nbsp;  
