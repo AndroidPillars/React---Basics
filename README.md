@@ -4,7 +4,7 @@
 - It follows the component based approach which helps in building reusable UI components.
 - It is used for developing complex and interactive web and mobile UI.  
 &nbsp;  
-  <b>For Example</b>
+  <b>For Example</b>  
   &nbsp;
   ```ruby
   webpage
@@ -12,7 +12,7 @@
    <blogPost/>
   webpage
   ```
-  - Here, the webpage component is made up of two sub components.
+  - <b>where</b>, the webpage component is made up of two sub components.
   - searchBar and blogPost components combine together to form the entire webpgae.
   - This is known as compositional model.
   - React is just JavaScript.
@@ -33,17 +33,17 @@
 - It is a open source run time environment which runs JavaScript code on a server.
 - Install Node.js -> https://nodejs.org/en/download/
 - To check the node version
-```ruby
-node -v
-```
+  ```ruby
+  node -v
+  ```
 
 # npm - Node Package Manager
 
 - It is used to install various dependencies and frameworks on to our project.
 - To check the node version
-```ruby
-npm -v
-```
+  ```ruby
+  npm -v
+  ```
 
 # JavaScript - ES6
 
