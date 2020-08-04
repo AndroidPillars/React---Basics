@@ -889,7 +889,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 
 <b>Example: 3</b>
 
-    __In App.js__  
+   __In App.js__  
     
     ```ruby  
     import React from "react";
@@ -1025,7 +1025,50 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
         return <h1>Hello {this.state.message}!</h1>;  
     }  
   }
+  ```  
+  
+# Examples 
+
+  <b>Example: 1</b>
+
+   __In App.js__  
+    
+   ```ruby  
+   import React from "react";
+   import ReactDOM from "react-dom";
+   import Demo from './Demo'
+
+   ReactDOM.render(<Demo name = {"by AndroidPillars"}/>, document.getElementById("root"));
+
+   ```  
+    
+   __In Demo.js__  
+    
+   ```ruby
+   import React,{Component} from 'react';
+
+    class Demo extends Component
+    {
+
+      constructor(){
+      super();
+      this.state = {
+          name: "AndroidPillars"
+      }
+    }
+
+    render(){
+      const {name} = this.state
+      return(
+        <p1>Description {name}</p1>
+      )
+    }
+  }
+
+
+  export default Demo;
   ```
+
 
 # Prop - Types
 
