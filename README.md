@@ -887,13 +887,41 @@ function Layout() {
 ReactDOM.render( <Layout/>, document.getElementById("root"));
 ```  
 
+<b>Example: 3</b>
+
+    __In App.js__  
+    
+    ```ruby  
+    import React from "react";
+    import ReactDOM from "react-dom";
+    import Demo from './Demo'
+
+    ReactDOM.render( <Demo/>, document.getElementById("root"));
+
+    ```  
+    
+   __In Demo.js__  
+    
+   ```ruby
+   import React from 'react';
+
+    function Demo(props){
+      return(
+        <p1>Description {props.name}</p1>
+      )
+    }
+
+   export default Demo;
+   ```
+
+
 # Class Components
 
 - The class components are little more complex than the functional components.
 - The functional components are not aware about the other components in your program where as the class components can work   with each other.
 - We can pass data from one class component to other class component.
-- We can use javascript ES6 classes to create class based components in React.  
-  &nbsp;  
+- We can use javascript ES6 classes to create class based components in React.
+  
   ```ruby
   class Demo extends React.Component {
  
