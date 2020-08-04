@@ -1038,7 +1038,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
    import ReactDOM from "react-dom";
    import Demo from './Demo'
 
-   ReactDOM.render(<Demo name = {"by AndroidPillars"}/>, document.getElementById("root"));
+   ReactDOM.render(<Demo mValue = {"by AndroidPillars"}/>, document.getElementById("root"));
 
    ```  
     
