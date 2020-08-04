@@ -617,6 +617,7 @@ import ReactDOM from "react-dom";
 function One() {
   return <h1>Hello</h1>;
 }
+
 ReactDOM.render(<One/>, document.getElementById("root"));
 
 ```  
