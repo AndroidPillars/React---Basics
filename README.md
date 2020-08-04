@@ -892,7 +892,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 - The class components are little more complex than the functional components.
 - The functional components are not aware about the other components in your program where as the class components can work   with each other.
 - We can pass data from one class component to other class component.
-- We can use javascript ES6 classes to create class based components in React.  
+- We can use javascript ES6 classes to create class based components in React.
   &nbsp;  
   ```ruby
   class Demo extends React.Component {
@@ -909,7 +909,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   <b>Example: 1</b>
 
     __In App.js__  
-    &nbsp;  
+    
     ```ruby  
     import React from "react";
     import ReactDOM from "react-dom";
@@ -918,8 +918,9 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
     ReactDOM.render( <Demo/>, document.getElementById("root"));
 
     ```  
+    
     __In Demo.js__  
-    &nbsp;  
+    
     ```ruby
    import React,{Component} from 'react';
 
@@ -940,6 +941,38 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 - Props are arguments passed into React components.
 - Props are passed to components via HTML attributes.
 - Props are considered to be read only immutable data it can't be changed overtime.
+
+# Examples 
+
+  <b>Example: 1</b>
+
+    __In App.js__  
+    
+    ```ruby  
+    import React from "react";
+    import ReactDOM from "react-dom";
+    import Demo from './Demo'
+
+    ReactDOM.render(<Demo name = {"by AndroidPillars"}/>, document.getElementById("root"));
+
+    ```  
+    
+    __In Demo.js__  
+    
+    ```ruby
+   import React,{Component} from 'react';
+
+   class Demo extends Component
+    {
+      render(){
+        return(
+          <p1>Description {this.props.name}</p1>
+        )
+      }
+    }
+
+    export default Demo;
+    ```
 
 # State Management
 
