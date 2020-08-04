@@ -909,9 +909,8 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   <b>Example: 1</b>
 
     __In App.js__  
-    
-    ```ruby  
     &nbsp;  
+    ```ruby  
     import React from "react";
     import ReactDOM from "react-dom";
     import Demo from './Demo'
