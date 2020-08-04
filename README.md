@@ -835,6 +835,57 @@ ReactDOM.render(<Main />, document.getElementById("root"));
     
   }
   ```
+  
+# Examples 
+
+<b>Example: 1</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+function Header() {
+  return <h1>Header</h1>;
+}
+
+function Body() {
+  return <h1>Decription</h1>;
+}
+
+function Footer() {
+  return <h1>Footer</h1>;
+}
+ReactDOM.render([<Header/>, <Body/>, <Footer/>], document.getElementById("root"));
+
+```  
+
+<b>Example: 2</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+function Header() {
+  return <h1>Header</h1>;
+}
+
+function Body() {
+  return <h1>Decription</h1>;
+}
+
+function Footer() {
+  return <h1>Footer</h1>;
+}
+
+function Layout() {
+  return (
+    <div>
+    <Header />
+    <Body/>
+    <Footer/>
+    </div>
+  )
+}
+ReactDOM.render( <Layout/>, document.getElementById("root"));
+```  
 
 # Class Components
 
