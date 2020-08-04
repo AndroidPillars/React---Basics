@@ -932,11 +932,11 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   }
   ```  
   
-  # Examples 
+# Examples 
 
-  <b>Example: 1</b>
+<b>Example: 1</b>
 
-    __In App.js__  
+   __In App.js__  
     
     ```ruby  
     import React from "react";
@@ -963,6 +963,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 
    export default Demo;
    ```
+
 
 # Props
 
