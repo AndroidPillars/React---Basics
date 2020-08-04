@@ -918,7 +918,6 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
     ReactDOM.render( <Demo/>, document.getElementById("root"));
 
     ```  
-    
     __In Demo.js__  
     &nbsp;  
     ```ruby
