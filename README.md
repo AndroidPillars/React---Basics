@@ -919,9 +919,9 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 
     ```  
     
-    __In Demo.js__  
+   __In Demo.js__  
     
-    ```ruby
+   ```ruby
    import React,{Component} from 'react';
 
    class Demo extends Component
@@ -933,8 +933,8 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
       }
     }
 
-    export default Demo;
-    ```
+   export default Demo;
+   ```
 
 # Props
 
@@ -946,20 +946,20 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 
   <b>Example: 1</b>
 
-    __In App.js__  
+   __In App.js__  
     
-    ```ruby  
-    import React from "react";
-    import ReactDOM from "react-dom";
-    import Demo from './Demo'
+   ```ruby  
+   import React from "react";
+   import ReactDOM from "react-dom";
+   import Demo from './Demo'
 
-    ReactDOM.render(<Demo name = {"by AndroidPillars"}/>, document.getElementById("root"));
+   ReactDOM.render(<Demo name = {"by AndroidPillars"}/>, document.getElementById("root"));
 
-    ```  
+   ```  
     
-    __In Demo.js__  
+   __In Demo.js__  
     
-    ```ruby
+   ```ruby
    import React,{Component} from 'react';
 
    class Demo extends Component
@@ -971,8 +971,8 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
       }
     }
 
-    export default Demo;
-    ```
+   export default Demo;
+   ```
 
 # State Management
 
