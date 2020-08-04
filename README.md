@@ -595,7 +595,31 @@ const element = (
 );
 
 ReactDOM.render(element, document.getElementById("root"));
-```
+```  
+
+<b>Example: 5 (Using javascript)</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+const h1 = React.createElement("h1", null, "Header");
+const p = React.createElement("p", null, "Description");
+const myElement = React.createElement("div", null, h1, p);
+
+ReactDOM.render(myElement, document.getElementById("root"));
+```  
+
+<b>Example: 6</b>
+```ruby
+import React from "react";
+import ReactDOM from "react-dom";
+
+function One() {
+  return <h1>Hello</h1>;
+}
+ReactDOM.render(<One/>, document.getElementById("root"));
+
+```  
 
 # Components
 
