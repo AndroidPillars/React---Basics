@@ -902,8 +902,41 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
     }
     
   }
-  ```
+  ```  
   
+  # Examples 
+
+  <b>Example: 1</b>
+
+    __In App.js__  
+    
+    ```ruby  
+    &nbsp;  
+    import React from "react";
+    import ReactDOM from "react-dom";
+    import Demo from './Demo'
+
+    ReactDOM.render( <Demo/>, document.getElementById("root"));
+
+    ```  
+    
+    __In Demo.js__  
+    &nbsp;  
+    ```ruby
+   import React,{Component} from 'react';
+
+   class Demo extends Component
+    {
+      render(){
+        return(
+          <p1>Description</p1>
+        )
+      }
+    }
+
+    export default Demo;
+    ```
+
 # Props
 
 - Props are arguments passed into React components.
