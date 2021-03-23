@@ -1,4 +1,10 @@
-# Topics
+# React.js
+
+:point_right: Click :star: if you like the project.   
+:point_right: Pull Request are highly appreciated.  
+:point_right: Follow me [@Gowtham R](https://twitter.com/Gowtham26730226) for new technical updates.  
+
+## Topics
 
 | S.No | Content |
 | --------	 | ------------ |
@@ -32,7 +38,7 @@
 | 28 | [Tools Reference](README.md#tools-reference) |
 
 
-# React
+## React
 
 - React is a open-source frontend JavaScript library front-end JavaScript library developed by Facebook in 2011.
 - It follows the component based approach which helps in building reusable UI components.
@@ -51,18 +57,18 @@
   - This is known as compositional model.
   - React is just JavaScript.
   
-# Virtual DOM
+## Virtual DOM
 
 - The Components we just talked above is made up of Elements.
 - These Elements describes the UI of our webpage.
 - With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM   Nodes which are passed on to the actual DOM and renders appropriate UI on our webpage.
 
-# Visual Studio Code
+## Visual Studio Code
 
 - We use Visual Studio Code as Code Editor.
 - Install Visual Studio Code -> https://code.visualstudio.com/
 
-# Node.js
+## Node.js
 
 - It is a open source run time environment which runs JavaScript code on a server.
 - Install Node.js -> https://nodejs.org/en/download/
@@ -72,7 +78,7 @@
   node -v
   ```
 
-# npm - Node Package Manager
+## npm - Node Package Manager
 
 - It is used to install various dependencies and frameworks on to our project.
 - To check the node version  
@@ -81,9 +87,9 @@
   npm -v
   ```
 
-# JavaScript - ES6
+## JavaScript - ES6
 
-# var and let 
+## var and let 
 
 - <b>let</b> is an update that came along with ES6.
 - <b>Var</b> defines variables that can be reassigned.
@@ -123,11 +129,11 @@
     console.log(myName); // Outside the Scope it will thorugh an error
   ```
   
-# var vs let
+## var vs let
 
 - In var, we can reuse the variable names.
 
-# var
+## var
 
   <b>For Example</b>,
 
@@ -137,7 +143,7 @@
    console.log(age);
   ```
   
-# let
+## let
 
   <b>For Example</b>,
 
@@ -147,7 +153,7 @@
    console.log(age);
   ```
   
-# const 
+## const 
 
 - In const Once you assign a value, you cannot update that again.
 
@@ -193,7 +199,7 @@
   console.log(person.company);
   ```
   
-# Arrow Functions
+## Arrow Functions
 
 <b>In ES5</b>,
 ```ruby
@@ -261,7 +267,7 @@ const adults = ages.filter((age) => age > 20);
 console.log(adults);
 ```
 
-# Template String 
+## Template String 
 
 <b>In ES5</b>,
 ```ruby
@@ -283,9 +289,9 @@ const mDescription = `My name is ${name}, and I am ${age * 2} years old`;
 console.log(mDescription);
 ```
 
-# Function Parameters
+## Function Parameters
 
-# Objects  
+## Objects  
 - An object is nothing but a self-contained component which consists of methods and properties to make a particular type of data useful. 
 - Object determines the behavior of the class.
 
@@ -297,7 +303,7 @@ console.log(mDescription);
   console.log(person);
   ```
   
-# Function Constructor
+## Function Constructor
 
 ```ruby
 function Person(name, age) {
@@ -334,7 +340,7 @@ const bill = new Person('Android',50);
 bill.speak();
 ```
 
-# ES6 - Classes
+## ES6 - Classes
 
 ```ruby
 class Person{
@@ -390,7 +396,7 @@ console.log(bill.children);
 }
 ```
 
-# Spread Operator
+## Spread Operator
 
 ```ruby
 const names = ['Android', 'Flutter', 'React']
@@ -427,12 +433,12 @@ const allNames = [...names, 'Gio', ...moreNames]
 console.log(allNames)
 ```
 
-# Babel 
+## Babel 
 
 - Whenever we write ES6 code syntax we need Babel which is going to compile ES6 code to ES5 bundles.
 - Simply, Babel is a JavaScript compiler.
 
-# Create React App
+## Create React App
 
 - Choose the Required Folder
 - In Windows,  
@@ -477,7 +483,7 @@ console.log(allNames)
   ```
 - <b>Note</b>: You can check the libraries installation in package.json file -> dependencies.
 
-# Examples 
+## Examples 
 
 <b>Example: 1</b>
 ```ruby
@@ -517,14 +523,14 @@ const element = React.createElement(
 ReactDOM.render(element, document.getElementById("root"));
 ```
 
-# Understanding JSX
+## Understanding JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
 - In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
 - The JSX is translated to regular JavaScript at runtime.
 - Whenever we are writting JSX, as a rule of them every thing must quote to a single JSX element.
 
-# Examples
+## Examples
 
 <b>Example: 1</b>
 ```ruby
@@ -622,12 +628,12 @@ ReactDOM.render(<One/>, document.getElementById("root"));
 
 ```  
 
-# Components
+## Components
 
  - Compoenents are the main building blocks of an Application.
  - You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI.
  
-# Examples
+## Examples
 
 <b>Example: 1</b>
 ```ruby
@@ -721,7 +727,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
 ```
 - <b>this</b> keyword points out to the component instance of the class that is being rendered.
 
-# Refractor
+## Refractor
 
 <b>Example: 1</b>
 
@@ -794,7 +800,7 @@ import Main from "./Components/Main";
 ReactDOM.render(<Main />, document.getElementById("root"));
 ```
 
-# Setting Styles 
+## Setting Styles 
 
 - To install font from online sources,
 
@@ -822,7 +828,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
     color : black;
   } 
   ```
-# Functional Components
+## Functional Components
 
 - Functional components are simply javascript functions.
 - We can create a functional component in React by writing a javascript function.
@@ -836,7 +842,7 @@ ReactDOM.render(<Main />, document.getElementById("root"));
   }
   ```
   
-# Examples 
+## Examples 
 
 <b>Example: 1</b>
 ```ruby
@@ -915,7 +921,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
    ```
 
 
-# Class Components
+## Class Components
 
 - The class components are little more complex than the functional components.
 - The functional components are not aware about the other components in your program where as the class components can work   with each other.
@@ -932,7 +938,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   }
   ```  
   
-# Examples 
+## Examples 
 
 <b>Example: 1</b>
 
@@ -965,13 +971,13 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
    ```
 
 
-# Props
+## Props
 
 - Props are arguments passed into React components.
 - Props are passed to components via HTML attributes.
 - Props are considered to be read only immutable data it can't be changed overtime.
 
-# Examples 
+## Examples 
 
   <b>Example: 1</b>
 
@@ -1003,7 +1009,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
    export default Demo;
    ```
 
-# State Management
+## State Management
 
 - React components has a built-in state object.
 - The state object is where you store property values that belongs to the component.
@@ -1027,7 +1033,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   }
   ```  
   
-# Examples 
+## Examples 
 
   <b>Example: 1</b>
 
@@ -1070,7 +1076,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   ```
 
 
-# Prop - Types
+## Prop - Types
 
 - We can use the propType for validating any data we are receiving from props. 
 
@@ -1078,7 +1084,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
   npm install --save prop-types
   ```
 
-# React State Management Lifecycle Methods
+## React State Management Lifecycle Methods
 
 - The constructor is only used to initialize the state of our Component or bind methods to the proper context.
 - The componentDidMount method is invoked immediately after the component is being inserted in to the DOM.
@@ -1086,7 +1092,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 - The componentWillMount method as is called as the constructor(i.e) before the component is invoked in to the         DOM(i.e)before the render method gets invoked.
 - The componentDidUpdate method gets called once the component is Re-rendered(i.e) whenever we update the state of our Component trigger a Re-render.
 
-# React - Router
+## React - Router
 
 - We will be using React Router in to a Single Page Application.
 - In <b>Single Page Application,</b> it downloads the entire content in a Single Request.(i.e) A single-page application       works inside a browser and does not require page reloading during use.
@@ -1102,7 +1108,7 @@ ReactDOM.render( <Layout/>, document.getElementById("root"));
 npm install react-router-dom
 ```
   
-# Browser Router
+## Browser Router
 
 - Browser Component is used to keep track of URL changes.  
 &nbsp;  
@@ -1112,7 +1118,7 @@ npm install react-router-dom
   ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, document.getElementById('root'));
   ```
 
-# Link
+## Link
 
 - Link Component is used to invoke a change in the URL upon it is being clicked on(ie)it's similar to that of the hyper link.  
   &nbsp;  
@@ -1122,7 +1128,7 @@ npm install react-router-dom
   <Link className="add-icon" to="/add-photo"></Link>
   ```
 
-# Route
+## Route
 
 - Based on the URL we are going to have Route which contains the given path, whatever the URL are directed by the Link Component are going to find the proper Route which has the given path associated with the link.  
   &nbsp;  
@@ -1133,7 +1139,7 @@ npm install react-router-dom
   
   ```
 
-# Redux
+## Redux
 
 - Redux makes our state of the Application more Predictable. 
 - As our application becomes more complex(i.e) whenever you miss manage the state as a result your are exposed to a lot of Bugs that's what the redux is the good alternative to managing our application state.
@@ -1225,7 +1231,7 @@ npm install react-router-dom
     ```
 - By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
 
-# FireBase
+## FireBase
 
 - Firebase is a technology that allows you to create web and mobile applications without server-side programming, making development faster and easier. 
 - Visit, https://console.firebase.google.com/u/0/
