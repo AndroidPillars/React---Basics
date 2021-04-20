@@ -106,11 +106,12 @@ __Working__
 
 - ES6 stands for ECMA Script 6 version.
 - It's having new features like Classes, Arrow Functions and Variables(let, const and var)
+- By using Arrow, We can make the syntax shorter for the Function.
 
 ## var and let 
 
-- <b>let</b> is an update that came along with ES6.
 - <b>Var</b> defines variables that can be reassigned.
+- If we use the variable outside the function its called global variable and inside the function is called local variable.
 
   <b>For Example</b>,
   
@@ -119,7 +120,9 @@ __Working__
   console.log(name);
   name = "Flutter";
   console.log(name);
-  ```
+  ```  
+- <b>let</b> is an update that came along with ES6.
+- If we use the variable in block or loop, then the value will available only inside the block.
 - In Var you cannot access the variable outside the scope(i.e) when you declare a variable in var it is scoped to the enclosing function.
 - var is a function scoped.
 
