@@ -654,7 +654,8 @@ ReactDOM.render(<One/>, document.getElementById("root"));
 ## Components
 
  - Compoenents are the main building blocks of an Application.
- - You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI.
+ - You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your      final UI.
+ - Two Types -> Functional Component and Class Component.
  
 ## Examples
 
