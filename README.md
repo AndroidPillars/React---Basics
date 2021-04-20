@@ -363,6 +363,8 @@ bill.speak();
 
 ## ES6 - Classes
 
+- A Class is used to bind data's and methods as a single unit.
+
 ```ruby
 class Person{
 
