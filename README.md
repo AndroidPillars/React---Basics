@@ -57,6 +57,13 @@
   - searchBar and blogPost components combine together to form the entire webpgae.
   - This is known as compositional model.
   - React is just JavaScript.
+
+## Single Page Application
+
+- A Single Page Application is a web application or website that interacts with the web browser by dynamically rewriting the current web page with new data from the web         server, instead of the default method of the browser loading entire new pages.
+- This means that the URL of your website will not change completely (page will not reload), instead it will keep getting content and rewriting the DOM with it instead of       loading a new page.
+- The goal is faster transitions that make the website feel more like a native app.
+- Example: Gmail, Facebook and Twitter.
   
 ## Virtual DOM
 
