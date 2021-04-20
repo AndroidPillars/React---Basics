@@ -42,6 +42,7 @@
 
 - React is a open-source frontend JavaScript library front-end JavaScript library developed by Facebook in 2011.
 - It follows the component based approach which helps in building reusable UI components.
+- React is used to build single page applications.
 - It is used for developing complex and interactive web and mobile UI.  
 &nbsp;  
   <b>For Example</b>  
