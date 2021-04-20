@@ -69,7 +69,14 @@
 
 - The Components we just talked above is made up of Elements.
 - These Elements describes the UI of our webpage.
-- With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM   Nodes which are passed on to the actual DOM and renders appropriate UI on our webpage.
+- With the help of Virtual DOM React takes care of all the hard work of converting the elements that we created through DOM   Nodes which are passed on to the actual DOM and     renders appropriate UI on our webpage.
+
+__Working__
+
+- React creates a virtual DOM in memory.
+- Manipulating Real DOM is much slower than manipulating Virtual DOM becuase nothing gets drawn on the screen.
+- When state of an object changes, Virtual DOM changes only that objects in the real DOM instead of updating all the objects.
+- Virtual DOM makes React extremly Powerful and Efficient.
 
 ## Visual Studio Code
 
