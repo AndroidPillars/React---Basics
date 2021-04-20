@@ -104,6 +104,9 @@ __Working__
 
 ## JavaScript - ES6
 
+- ES6 stands for ECMA Script 6 version.
+- It's having new features like Classes, Arrow Functions and Variables(let, const and var)
+
 ## var and let 
 
 - <b>let</b> is an update that came along with ES6.
